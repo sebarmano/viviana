@@ -1,11 +1,11 @@
 ---
-title: Page Title
+title: Viviana Litterio
 ---
 
 %header.centered-navigation
   .centered-navigation-wrapper
     %a.mobile-logo{:href => "javascript:void(0)"}
-      %img{:alt => "Logo image", :src => "img/logo.png"}
+      = image_tag 'logo.png'
     %a#js-centered-navigation-mobile-menu.centered-navigation-mobile-menu{:href => "javascript:void(0)"} MENU
     %ul#js-centered-navigation-menu.centered-navigation-menu.show
       %li.nav-link
@@ -16,7 +16,7 @@ title: Page Title
         %a{:href => "javascript:void(0)"} Contact
       %li.nav-link.logo
         %a.logo{:href => "javascript:void(0)"}
-          %img{:alt => "Logo image", :src => "img/logo.png"}
+          = image_tag 'logo.png'
       %li.nav-link
         %a{:href => "javascript:void(0)"} Testimonials
       %li.nav-link.more
@@ -42,3 +42,41 @@ title: Page Title
                 %a{:href => "javascript:void(0)"} An Item
       %li.nav-link
         %a{:href => "javascript:void(0)"} Sign up
+
+#js-parallax-window.parallax-window
+  .parallax-static-content
+    .header-text
+      %h3 Viviana Litterio
+      %p Decoraciones
+  #js-parallax-background.parallax-background
+
+.items-container
+  .grid-items
+    %a.grid-item{:href => "javascript:void(0)"}
+      %img{:alt => "", :src => "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png"}
+        %h1 Grid Item
+        %p Lorem ipsum dolor sit amet, elit. Rem, illum.
+    %a.grid-item.grid-item-big.grid-item-image{:href => "javascript:void(0)"}
+      %img{:alt => "", :src => "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png"}
+        %h1 Grid Item With an Image
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, illum.
+    %a.grid-item.grid-item-big{:href => "javascript:void(0)"}
+      %img{:alt => "", :src => "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png"}
+        %h1 Another Wide Item
+        %p Lorem ipsum consectetur dolor sit amet, consectetur adipisicing elit. Rem, illum.
+    %a.grid-item{:href => "javascript:void(0)"}
+      %img{:alt => "", :src => "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png"}
+        %h1 Last Grid Item
+        %p Lorem ipsum dolor sit amet, elit. Rem, illum.
+    %a.grid-item{:href => "javascript:void(0)"}
+      %img{:alt => "", :src => "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png"}
+        %h1 Last Grid Item
+        %p Lorem ipsum dolor sit amet, elit. Rem, illum.
+    %a.grid-item{:href => "javascript:void(0)"}
+      %img{:alt => "", :src => "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png"}
+        %h1 A Grid Item
+        %p Lorem ipsum dolor sit amet, elit. Rem, illum.
+    %a.grid-item{:href => "javascript:void(0)"}
+      %img{:alt => "", :src => "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png"}
+        %h1 Item
+        %p Lorem ipsum dolor sit amet, elit. Rem, %illum.

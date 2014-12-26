@@ -6,3 +6,20 @@
 @import "base/base";
 @import "global";
 @import "navbar";
+@import "parallax";
+@import "grid_items";
+
+.header-text {
+  display: block;
+  background: rgba(0, 0, 0, 0.34);
+  padding: 15px 25px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: white;
+  max-width: 500px;
+  margin: 10px auto;
+
+  h3 {
+    font-size: 60px;
+    border-bottom: 1px solid white;
+  }
+}
