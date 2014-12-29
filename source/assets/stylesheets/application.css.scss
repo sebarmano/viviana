@@ -12,14 +12,24 @@
 .header-text {
   display: block;
   background: rgba(0, 0, 0, 0.34);
-  padding: 15px 25px;
+  padding: 30px 40px;
   border: 2px solid rgba(255, 255, 255, 0.6);
   color: white;
-  max-width: 500px;
+  max-width: 600px;
   margin: 10px auto;
+  text-align: center;
 
   h3 {
-    font-size: 60px;
-    border-bottom: 1px solid white;
+    font-family: $cursive;
+    font-size: 80px;
+  }
+
+  p {
+    font-family: $serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    border-top: 1px solid white;
+    // FIXME: center this paragraph
   }
 }
